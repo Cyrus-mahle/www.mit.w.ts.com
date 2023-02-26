@@ -84,7 +84,7 @@
 { 
   justify-content: center;
   align-items: center;
-  display: grid;
+  display: flex;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -119,7 +119,6 @@
     max-width: 100%;
   }
   body{
-    display: flex;
     padding: 0.4rem;
   }
       .container{
@@ -134,14 +133,14 @@
       #service
       {
         background-color: transparent;
-        display: flexbox;
+        display: flex;
         flex-flow: flex-start;
       }
 
       .service .box-container
       { 
        display: flex;
-       flex-flow: flex-start;
+       flex-flow: column;
        flex-wrap: wrap;
       }
 
@@ -150,7 +149,7 @@
 and (-webkit-min-device-pixel-ratio: 2) {
   .container{
         display: flex;
-        flex-flow: flex-start;
+        flex-flow: column;
         position: relative;
         padding-bottom: 1rem;
         padding-top: 1rem;
@@ -169,7 +168,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
       .service .box-container
       { 
        display: flex;
-       flex-flow: flex-start;
+       flex-flow: column;
        flex-wrap: wrap;
       }
  }
