@@ -4,7 +4,6 @@ body{
     background: url();
     margin-top: 0.5rem;
     font-family: 'Urbanist', sans-serif;
-    overflow-x: hidden;
     background:  url('img/cover.png')  center/cover no-repeat fixed;
     overflow-y:hidden;
 }
