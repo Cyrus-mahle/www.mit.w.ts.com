@@ -6,6 +6,7 @@ body{
     font-family: 'Urbanist', sans-serif;
     overflow-x: hidden;
     background:  url('img/cover.png')  center/cover no-repeat fixed;
+    overflow-y:hidden;
 }
 
 a{
@@ -296,6 +297,7 @@ header .mobile-toggler{
   ::-webkit-scrollbar-thumb {
     background: linear-gradient(white,blueviolet); 
     border-radius: 10px; }
+
      /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background:rgb(234, 217, 240); 
