@@ -292,16 +292,15 @@ header .mobile-toggler{
     border-radius: 10px;
   }
    
-  /* Handle */
+        /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: rgb(84, 34, 150); 
-    border-radius: 10px;
-  }
-  
-  /* Handle on hover */
+    background: linear-gradient(white,blueviolet); 
+    border-radius: 10px; }
+     /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #a33333; 
+    background:rgb(234, 217, 240); 
   }
+
 @media(max-width:767px){
 
     .section-1 p{
@@ -322,13 +321,6 @@ header .mobile-toggler{
         margin-top: 0.3rem;
         margin-bottom: 0.3rem;
     }
-      /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: linear-gradient(white,blueviolet); 
-    border-radius: 10px; }
-     /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background:rgb(234, 217, 240); 
-  }
+
   
 }
